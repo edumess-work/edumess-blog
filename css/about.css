@@ -1,0 +1,227 @@
+h2{
+    font-family: 'Cinzel';
+}
+
+h5{
+    font-family: 'Bodoni Moda SC';
+}
+
+p{
+    font-family: 'IBM Plex Serif';
+}
+
+
+h4{
+    font-family: 'Bodoni Moda SC';
+}
+h3{
+    font-family: 'Bodoni Moda SC';
+}
+
+
+
+
+#head-about{
+    background-color: #007bff;
+    margin-bottom: 60px;
+
+    .container{
+        color: white;
+        padding: 40px;
+    }
+
+
+    h6{
+        font-size: 20px;
+    }
+
+
+
+
+    h2{
+        font-size: 50px;
+    }
+
+
+}
+
+
+#what-we-do{
+    padding: 30PX;
+    margin-bottom: 50PX;
+   width: fit-content;
+    margin-left: 100px;
+    margin-right: 100PX;
+    background-color: #F5F9FE;
+
+}
+
+
+
+#who-we-serve{
+    text-align: center;
+
+    .container{
+
+
+        #twos{
+             display: flex;
+        }
+        
+
+
+
+        .card{
+            width:fit-content;
+            padding: 20px;
+            margin: 30px;
+            text-align: center;
+            background-color: #F5F9FE;
+            
+           
+        }
+
+
+
+        
+    }
+
+
+
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @media (max-width: 768px) {
+
+    #who-we-serve{
+        #twos{
+            flex-direction: column;
+        }
+
+        
+    }
+
+
+
+
+
+
+    #what-we-do{
+    padding: 10PX;
+    margin-bottom: 10PX;
+   width: fit-content;
+    margin-left: 10px;
+    margin-right: 10PX;
+    background-color: #F5F9FE;
+    text-align: center;
+
+}
+}
+
+
+
+#solution-head{
+margin-top:180px;
+text-align: center
+}
+
+#sol{
+    background-color: aliceblue;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+    justify-content: center;
+    align-items: center
+    
+}
+
+
+#vision{
+    .container{
+        display: flex;
+    
+    }
+    .card{
+        padding: 20px;
+        text-align: center;
+        margin-top: 100px;
+        margin-right: 20px;
+        background-color: #F5F9FE;
+    }
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+    #who-we-serve{
+        #twos{
+            flex-direction: column;
+        }
+    }
+
+
+        #vision{
+    .container{
+        flex-direction: column;
+    }
+}
+        
+}
+
+
+
+
+body.dark-mode #who-we-serve .card,
+body.dark-mode #vision .card {
+    background-color: #1b2733;
+    --bs-card-bg: #1b2733;
+    color: #f1f1f1;
+
+}
+
+
+body.dark-mode #what-we-do .card{
+    background-color: #1b2733;
+    --bs-card-bg: #1b2733;
+    color: #f1f1f1;
+}
+
+body.dark-mode #what-we-do{
+    background-color: #1b2733;
+    color: #f1f1f1;
+}
+
+
+body.dark-mode #sol{
+    background-color:#1b2733;
+}

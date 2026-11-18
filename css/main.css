@@ -1,0 +1,486 @@
+#logo{
+    width: 160px;
+    height: auto;
+    object-fit: contain;
+}
+#Menu{
+    flex-grow: 0;
+    --bs-offcanvas-width: 200px;
+   
+
+    
+}
+
+@media (min-width: 992px){
+        .navbar .container-fluid {
+            justify-content: center;
+        }
+
+       
+
+
+
+
+}
+
+
+   
+.nav-link{
+        font-weight: 900;
+        font-size: 20px;
+    }
+
+
+
+    #image-text{
+        display: flex;
+        background-color: #30a0e0;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 100px;
+        margin-left: 0px;
+         margin-right: 0px;
+
+        h6{
+            font-size: 30px;
+            color: white;
+        }
+
+
+        h1{
+            font-size: 70px;
+            font-family: 'IBM Plex Serif';
+            font-weight: 400px;
+            font-style: oblique;
+            color: white;
+            
+        }
+
+
+
+        p{
+            color: white;
+        }
+
+    }
+
+
+
+#hero-img{
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
+
+#our-buttons{
+    margin-top: -230px;
+    margin-bottom: 250px;
+    margin-left: 100px;
+    
+    #button-1{
+        color: white;
+    text-decoration: none;
+    }
+
+
+    #button-2{
+        color: white;
+    text-decoration: none;
+    }
+}
+
+
+#word{
+    color: #2e67a5;
+    font-family: 'Rubik Dirt';
+
+}
+
+
+@media (max-width: 768px) {
+    #hero-img {
+        display: none;
+
+    }
+
+ #image-text{
+    flex-direction: column;
+    padding: 40px 20px;
+    margin-left: 0;
+    margin-right: 0;
+
+
+
+    h6{
+        font-size: 20px;
+    }
+
+
+    h1{
+
+        font-size: 40px;
+    }
+}
+
+
+    #our-buttons{
+        margin-top: 20px;
+        margin-bottom: 40px;
+        margin-left: 0;
+    }
+ 
+
+
+
+    #article-items{
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+
+    #footer-info{
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+}
+
+
+    
+
+
+
+
+
+
+
+
+
+                                                                    /* ARTICLE SECTION */
+
+
+
+
+#article{
+    
+
+   
+
+    h1{
+        text-align: center;
+        font-family: 'IBM Plex Serif';
+        color: #007bff;
+    }
+
+    h3{
+        text-align: center;
+        font-size: 30px;
+    }
+
+
+    p{
+        font-family: 'IBM Plex Serif';
+        font-style: oblique;
+        text-align: center;
+    }
+    
+}
+
+
+
+
+#article-items{
+     text-align: center;
+     justify-content: center;
+     display: flex;
+     gap: 30px;
+     margin-top: 100px;
+     
+
+    #brains{
+
+        font-size: 50px;
+        color: #007bff;
+       
+    }
+
+   
+
+}
+
+
+#art-1{
+    border: 0px solid black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4)
+}
+
+
+#art-2{
+    border: 0px solid black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4)
+}
+
+
+#art-3{
+    border: 0px solid black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+
+#article{
+    background-color: aliceblue;
+    padding-bottom: 50px;
+    padding-top: 70px;
+    margin-top: -35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#info{
+    margin-top: 100px;
+    text-align: center;
+   
+    h6{
+        font-family: 'Vina Sans';
+        font-weight: 60px;
+        color: rgb(80, 81, 82);
+    }
+
+
+    p{
+        font-family:'Cinzel' ;
+    }
+
+
+    h5{
+        color: #007bff;
+    }
+
+}
+
+
+
+
+
+.info-1{
+    text-align: center;
+    font-family: 'Limelight';
+    border: 0px solid black;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+    border-radius: 30px;
+
+
+
+
+    
+}
+
+#footer-info{
+    display: flex;
+    gap: 60px;
+    justify-content: space-between;
+    align-items: center;
+   
+    
+    ul{
+        list-style: none;
+        padding: 0;
+    }
+   
+    
+}
+
+
+#footer{
+    background-color: #30a0e0;
+    padding: 40px 0 20px;
+    color: white;
+    margin-top: 100px;
+   
+    a{
+        color: white;
+        text-decoration: none;
+    }
+}
+
+
+#footer-buttom{
+    margin-top: 30px;
+    padding-top: 15px;
+    border-top: 1 px solid rgba(255, 255, 255, 0.2);
+    text-align: center;
+}
+
+#hero{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                    /* NEXT PAGE*/
+
+.article-cards{
+    text-align: center;
+   
+}
+
+.card-text{
+     font-family: 'Limelight';
+}
+.card-title{
+    font-family: 'Bodoni Moda SC';
+}
+.card{
+    gap: 30px;
+    border-radius: 40px;
+    &:hover{
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.4) ;
+    }
+   
+}
+
+#blog-main{
+    background-color: #30a0e0;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-bottom: 0px;
+}
+
+
+
+#blog-main{
+
+    text-align: center;
+    color: white;
+
+    h3{
+       font-family: 'Radaction 20'; 
+       padding: 30px;
+    }
+
+
+    h6{
+        font-family: 'Radaction 20'
+    }
+
+    p{
+        font-family: 'Vina Sans';
+        padding-bottom: 50px;
+    }
+}
+
+
+
+
+#theme-toogle{
+    background: transparent;
+    border: 1px solid #007bff;
+    border-radius: 50%;
+    padding: 8px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
+body.dark-mode{
+    background-color: #121820;
+    color: #f1f1f1;
+}
+
+
+body.dark-mode .card{
+    background-color: #1b2733;
+    --bs-card-bg:#1b2733;
+    color: #f1f1f1;
+}
+
+body.dark-mode #article{
+    background-color:#1b2733;
+}
+
+
+body.dark-mode header{
+    background-color: #1b2733;
+}
+body.dark-mode .offcanvas {
+    background-color: #1b2733;
+}
+
+body.dark-mode .nav-link {
+    color: #f1f1f1;
+}
+
+body.dark-mode .offcanvas-title {
+    color: #f1f1f1;
+}
+
+@media(min-width: 992px) {
+    .navbar .container-fluid{
+        position: relative;
+    }
+
+    #theme-toogle{
+        position: absolute;
+        right: 25px;
+    }
+}
+
+
+body.dark-mode .navbar-toggler-icon {
+    filter: invert(1);
+}
+
+body.dark-mode #article .text-body-secondary{
+    color: white
+}
+
+body.dark-mode #article .card-subtitle,
+body.dark-mode #article .card-text{
+    color: white !important
+}
+
+
+body.dark-mode #info .card-subtitle{
+    color: white !important ; 
+}
+
+
+.navbar-nav {
+    border-left: 2px solid black;
+}
+
+body.dark-mode .navbar-nav {
+    border-left: 2px solid white;
+}
